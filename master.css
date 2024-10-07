@@ -1,0 +1,240 @@
+    body{
+        margin: 0;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    header{
+        padding: 5px;
+        width: 100%;
+        background-color: #333333;
+        display: flex;
+        justify-content: space-around;
+        color: #ffffff;
+    }
+    
+
+    /* ////////// */
+    .welcome{
+        position: relative;
+    }
+    .welcome img{
+        height: 700px;
+        width: 100%;
+        z-index: 0;
+    }
+    .welcome h1 {
+        display: inline;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        background-color: #0000ff38;
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    /* ///////////// */
+    .About{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    h2{
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    /* /////////////// */
+    .our{
+        background-color: #fcd5bf;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .our_flex{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .our_card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .our_card h3{
+        margin: 0; 
+        font-weight: bold;
+        font-size: 20px;
+    }
+    /* /////////////////// */
+
+    .spe{
+        padding-top: 120px;
+        padding-bottom: 120px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .spe_flex{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .spe_card{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .spe_card p {
+        margin-top: 0px;
+        font-size: 17px;
+        text-align: center;
+    }
+    /* /////////// */
+
+    .Teachers{
+        background-color: #fcd5bf;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .teach_flex{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .teach_card{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .teach_card h3{
+        font-size: 27px;
+    }
+
+    .teach_card img{
+        height: 120px;
+        width: 140px;
+        
+    }
+    .teach_card p {
+        margin-top: 0px;
+        font-size: 20px;
+        text-align: center;
+    }
+    /* ////////////////// */
+    .Plans{
+        padding-top: 120px;
+        padding-bottom: 120px;
+        display: flex;
+        justify-content: center;
+
+    }
+    .plan_card{
+        display: flex;
+        flex-direction: column;
+        background-color: #f5deb3;
+        width: 250px;
+        height: 450px;
+        margin-left: 25px;
+        font-size: 18px;
+    }
+
+    .plan_card img{
+        margin:auto; 
+        margin-top: 15px;
+        width: 90%;
+        height: 120px;
+    }
+
+    .plan_card h3{
+        display: inline;
+        text-align: center;
+        font-size: 25px;
+    }
+    .box{
+        border: solid 2px #ffd700;
+        background-color:#fde98c ;
+        width: 90%;
+        margin: auto;
+    }
+    .box p {
+        margin-left: 5px;
+    }
+    /* //////////////// */
+    .Contact{
+        background-color: #fcd5bf;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Contact form{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    .Contact form input{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .Contact form .spc{
+        width: 150px;
+        align-self: center;
+        background-color: #333333;
+        color: white;
+        border-radius: 10%;
+    }
+    .Contact p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .Contact .ss{
+        margin-bottom:20px ;
+    }
+
+/* /////////////// */
+
+footer{
+    padding: 1px;
+    width: 100%;
+    background-color: #333333;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+}
+footer a {
+    margin-top: 0px;
+    margin-bottom:0px ;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
